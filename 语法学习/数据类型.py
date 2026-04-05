@@ -1,0 +1,10 @@
+#变量没有类型，字面量有类型
+print(type("123"))
+print(type(132))
+print(type(13.14))
+string_type1 = type("123")
+string_type2 = type(132)
+string_type3 = type(13.14)
+print(string_type1)
+print(string_type2)
+print(string_type3)
